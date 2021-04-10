@@ -9,8 +9,8 @@ console.log(spliced);
 console.log(numbers);
 
 // slice : 기존의 배열을 건드리지 않음
-
-const sliced = numbers.slice(0,2);  // 0에서부터 2번전까지 
+const numbers2 = [10, 20, 30, 40];
+const sliced = numbers2.slice(0,2);  // 0에서부터 2번전까지 
 console.log(sliced);
-console.log(numbers);
+console.log(numbers2);
 

@@ -20,8 +20,11 @@ const todos = [
         done:false
     }
 ];
-
+console.log(todos);
 // 기존의 배열을 건드리지 않고 새로운 배열 만들기 filter 기능
 const tasksNotDone = todos.filter(todo => !todo.done);
 console.log(tasksNotDone);
 
+const taskHaveDone = todos.filter(todo => todo.id > 1 && todo.done);
+
+console.log(taskHaveDone);
