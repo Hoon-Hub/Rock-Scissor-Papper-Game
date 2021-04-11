@@ -14,7 +14,7 @@
     
     // 변경점 : default parameter 
     {
-        function printMessage(message = 'default message'){
+        function printMessage(message = 'null message'){
             console.log(message);
         }
 

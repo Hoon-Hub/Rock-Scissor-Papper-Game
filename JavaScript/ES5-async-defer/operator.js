@@ -65,7 +65,7 @@ console.log(hoon1 === hoon3);   //t
 
 //------------------------------------
 //8. if => ternary operator : ?
-console.log(name==='hoon' ? 'yes' : 'no');
+console.log('hoon' ? 'yes' : 'no');
 
 
 // 9. do while : 블럭을 먼저 실행하고 싶을 때 사용
@@ -77,7 +77,11 @@ do{
 
 
 
-// 10. for 
+// 10. nesting loops
+// for 을 겹치기 -> 구구단 같은거
+
+// break, continue
+
 
 
 

@@ -7,10 +7,11 @@ const array = [obj1, obj2];
 
 // array copy
 const arrayCopy = [...array] ;
-console.log(array,arrayCopy);
+console.log(array);
+console.log(arrayCopy);
 
 const arrayCopy2 = [...array, {key: 'key3'}];
-
+console.log(arrayCopy2);
 // ... : object의 주소값을 가져옴 / 실제로는 동일한 object
 obj1.key = 'newKey';
 

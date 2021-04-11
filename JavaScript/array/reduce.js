@@ -15,11 +15,11 @@ const sum2 = numbers.reduce((accumulator, current) => accumulator + current, 0);
 console.log(sum2);
 
 //평균 구하기
-const sum3 = numbers.reduce((accumulator, current, index, array) => {
+const avg = numbers.reduce((accumulator, current, index, array) => {
     if( index === array.length - 1){
         return (accumulator + current ) / array.length;
     }else{
         return accumulator + current;
     }
     }, 0);
-console.log(sum3);
+console.log(avg);

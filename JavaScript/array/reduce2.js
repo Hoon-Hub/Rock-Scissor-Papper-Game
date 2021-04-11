@@ -1,11 +1,12 @@
 const alpahbets = ['a','a','a','b','b','b','c','c','d','e'];
 
 const counts = alpahbets.reduce((acc, current) => {
-    if(acc[current]){
-        acc[current] += 1;
-    }else{
-        acc[current] = 1;
-    }
+    // if(acc[current]){
+    //     acc[current] += 1;
+    // }else{
+    //     acc[current] = 1;
+    // }
+    acc[current] ? acc[current] += 1 : acc[current] =1 ;
     return acc;
 }, {});
 console.log(counts);

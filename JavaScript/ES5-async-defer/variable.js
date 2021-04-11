@@ -22,15 +22,18 @@ a =6;
     name = 'hello';
     console.log(name);
 }
+// console.log(name);
 // block scope을 사용하면 외부에서 사용할 수 없다.
 // console.log(name); 
 
 // var 는 이제 사용되지 않음
    //선언 전 값 할당, 추가, 할당이 가능함. 
 //var hoisting  : 어디에 선언한 것에 상관없이 선언을 가장 위로 끌어올려놓는 것을 의미
-// block scope 을 무시함
+// block scope 을 무시함ㅊ
+{
 age = 4 ;
 var age ;
+}
 console.log(age);
 
 
@@ -78,7 +81,7 @@ console.log(symbol1 === symbol2); //false
 const gSymbol1 = Symbol.for('id');
 const gSymbol2 = Symbol.for('id');
 console.log(gSymbol1 === gSymbol2); //true
-console.log(`value: ${symbol1.description}, type:${typeof Symbol1}`);
+console.log(`value: ${gSymbol1.description}, type:${typeof gSymbol1}`);
 
 
 
@@ -102,5 +105,6 @@ text = '7' + 5;
 console.log(`value : ${text}, type: ${typeof text}`);
 text = '8' / '2';
 console.log(`value : ${text}, type: ${typeof text}`);
+text = '124';
 console.log(text.charAt(0));    //error
     // 주의해야함. => type script 에서 개선됐음. 

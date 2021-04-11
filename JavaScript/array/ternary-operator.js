@@ -19,6 +19,8 @@
         const component = isCat ? 'cats' : 'dogs';
         console.log(component);
 
+
+        
         //직접적으로 쓰기
         console.log(isCat ? 'cats' : 'dogs');
     }
